@@ -35,9 +35,9 @@ function get($link,$ua){
  
   function tim($tim){
   for($i=$tim; $i>0; $i--){
-    echo "Tunggu ".gmdate("H:i:s", $i)." detik";
+    echo "Tunggu ".gmdate("H:i:s", $i);
     sleep(1);
-    echo "                                                                      \r";
+    echo "                                                                  \r";
   }
   return $i;
   }
